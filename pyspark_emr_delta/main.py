@@ -127,12 +127,10 @@ top_2_products.show(20)
 
 # save them as delta
 # not partitioned, ideally partitioned by date
-total_by_city.write.format("delta").mode("overwrite").save(
-    str(config.OUT_PATH("total_city"))
-)
+total_by_city.write.format("delta").mode("overwrite").save(str(config.OUT_PATH))
 
 # Read table and print to stdout
-df_total_city = DeltaTable.forPath(spark, str(config.OUT_PATH("total_city")))
+df_total_city = DeltaTable.forPath(spark, str(config.OUT_PATH))
 df_total_city.toDF().show()
 
 # merges
