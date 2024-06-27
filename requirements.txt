@@ -1,0 +1,5 @@
+delta-spark==2.0.1 ; python_version >= "3.10" and python_version < "4.0"
+importlib-metadata==7.2.1 ; python_version >= "3.10" and python_version < "4.0"
+py4j==0.10.9.3 ; python_version >= "3.10" and python_version < "4.0"
+pyspark==3.2.1 ; python_version >= "3.10" and python_version < "4.0"
+zipp==3.19.2 ; python_version >= "3.10" and python_version < "4.0"

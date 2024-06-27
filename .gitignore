@@ -1,0 +1,9 @@
+.venv
+.env
+dist
+jars
+__pycache__
+*.pem
+.DS_Store
+data/out
+.vscode

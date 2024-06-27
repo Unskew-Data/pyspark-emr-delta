@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyspark-emr-delta"
+version = "0.1.0"
+description = ""
+authors = ["Shaurya Rawat <shauryarawat241994@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "pyspark_emr_delta" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "3.2.1"
+delta-spark = "2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
